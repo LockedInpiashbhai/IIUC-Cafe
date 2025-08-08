@@ -9,11 +9,12 @@ export default defineConfig({
     },
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://iiuc-cafe-backend.onrender.com',
         changeOrigin: true,
         secure: false,
       },
     },
   },
 })
+
 
